@@ -17,7 +17,7 @@
 use std::fmt;
 use serde::{Deserialize, Deserializer, Serialize, Serializer};
 use serde::de::{Error, Visitor};
-use ethcore::client::BlockId;
+// use ethcore::client::BlockId;
 
 /// Represents rpc api block number param.
 #[derive(Debug, PartialEq, Clone, Hash, Eq)]
@@ -91,16 +91,16 @@ impl<'a> Visitor<'a> for BlockNumberVisitor {
 	}
 }
 
-impl Into<BlockId> for BlockNumber {
-	fn into(self) -> BlockId {
-		match self {
-			BlockNumber::Num(n) => BlockId::Number(n),
-			BlockNumber::Earliest => BlockId::Earliest,
-			BlockNumber::Latest => BlockId::Latest,
-			BlockNumber::Pending => BlockId::Pending,
-		}
-	}
-}
+// impl Into<BlockId> for BlockNumber {
+// 	fn into(self) -> BlockId {
+// 		match self {
+// 			BlockNumber::Num(n) => BlockId::Number(n),
+// 			BlockNumber::Earliest => BlockId::Earliest,
+// 			BlockNumber::Latest => BlockId::Latest,
+// 			BlockNumber::Pending => BlockId::Pending,
+// 		}
+// 	}
+// }
 
 #[cfg(test)]
 mod tests {

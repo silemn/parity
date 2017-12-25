@@ -60,8 +60,23 @@ impl<C> Traces for TracesClient<C> where C: MiningBlockChainClient + 'static {
 	}
 
 	fn block_traces(&self, block_number: BlockNumber) -> Result<Option<Vec<LocalizedTrace>>> {
-		Ok(self.client.block_traces(block_number.into())
-			.map(|traces| traces.into_iter().map(LocalizedTrace::from).collect()))
+		let id = match block_number {
+			BlockNumber::Num(n) => BlockId::Number(n),
+			BlockNumber::Earliest => BlockId::Earliest,
+			BlockNumber::Latest => BlockId::Latest,
+			BlockNumber::Pending => {
+
+			}
+		};
+
+		if block_number = BlockNumber::Pending {
+			// `Pending` is handled using miner
+			//self.client.miner().
+			Ok(None)
+		} else {
+			Ok(self.client.block_traces(id)
+				.map(|traces| traces.into_iter().map(LocalizedTrace::from).collect()))
+		}
 	}
 
 	fn transaction_traces(&self, transaction_hash: H256) -> Result<Option<Vec<LocalizedTrace>>> {
