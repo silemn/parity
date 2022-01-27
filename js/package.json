@@ -147,7 +147,7 @@
     "@parity/plugin-signer-qr": "paritytech/plugin-signer-qr",
     "@parity/shared": "2.2.14",
     "@parity/ui": "3.1.28",
-    "keythereum": "1.0.2",
+    "keythereum": "1.0.3",
     "lodash.flatten": "4.4.0",
     "lodash.omitby": "4.6.0",
     "lodash.throttle": "4.1.1",
