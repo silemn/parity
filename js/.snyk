@@ -1,0 +1,35 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > express > debug:
+        patched: '2023-06-08T14:09:18.757Z'
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > express > finalhandler > debug:
+        patched: '2023-06-08T14:09:18.757Z'
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > express > send > debug:
+        patched: '2023-06-08T14:09:18.757Z'
+  'npm:extend:20180424':
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > extend:
+        patched: '2023-06-08T14:09:18.757Z'
+  'npm:hoek:20180212':
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > hawk > hoek:
+        patched: '2023-06-08T14:09:18.757Z'
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > hawk > boom > hoek:
+        patched: '2023-06-08T14:09:18.757Z'
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > hawk > sntp > hoek:
+        patched: '2023-06-08T14:09:18.757Z'
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > hawk > cryptiles > boom > hoek:
+        patched: '2023-06-08T14:09:18.757Z'
+  'npm:mime:20170907':
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > express > send > mime:
+        patched: '2023-06-08T14:09:18.757Z'
+  'npm:ms:20170412':
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > express > debug > ms:
+        patched: '2023-06-08T14:09:18.757Z'
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > express > send > ms:
+        patched: '2023-06-08T14:09:18.757Z'
+  'npm:stringstream:20180511':
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > stringstream:
+        patched: '2023-06-08T14:09:18.757Z'
