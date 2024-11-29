@@ -36,7 +36,9 @@
     "lint:css": "stylelint ./src/**/*.css",
     "lint:js": "eslint --ignore-path .gitignore ./src/",
     "test": "NODE_ENV=test mocha 'src/**/*.spec.js'",
-    "watch": "webpack --watch --config webpack/app"
+    "watch": "webpack --watch --config webpack/app",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "napa": {
     "qrcode-generator": "kazuhikoarase/qrcode-generator"
@@ -205,6 +207,8 @@
     "validator": "6.2.0",
     "whatwg-fetch": "2.0.1",
     "worker-loader": "^0.8.0",
-    "zxcvbn": "4.4.1"
-  }
+    "zxcvbn": "4.4.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
