@@ -1,0 +1,613 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > express > debug:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > express > send > debug:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > express > serve-static > send > debug:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > express > finalhandler > debug:
+        patched: '2018-12-08T03:39:49.430Z'
+  'npm:hoek:20180212':
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > request > hawk > hoek:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > request > hawk > boom > hoek:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > request > hawk > sntp > hoek:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-08T03:39:49.430Z'
+  'npm:mime:20170907':
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > express > send > mime:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > express > serve-static > send > mime:
+        patched: '2018-12-08T03:39:49.430Z'
+  'npm:minimatch:20160620':
+    - web3 > web3-bzz > swarm-js > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-abi > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-abi > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-eth-abi > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-requestmanager > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-abi > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-requestmanager > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-requestmanager > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-requestmanager > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-requestmanager > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-eth-abi > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-requestmanager > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-requestmanager > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-requestmanager > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-requestmanager > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-requestmanager > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-requestmanager > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-eth-abi > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-requestmanager > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-requestmanager > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-requestmanager > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-requestmanager > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-method > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-requestmanager > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-requestmanager > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-requestmanager > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-method > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-net > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-requestmanager > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-requestmanager > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth-personal > web3-net > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-contract > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-accounts > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-shh > web3-net > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-net > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-providers-http > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-method > web3-core-subscriptions > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-providers-ws > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-eth > web3-eth-personal > web3-net > web3-core > web3-core-requestmanager > web3-providers-ipc > web3-core-helpers > web3-eth-iban > web3-utils > eth-lib > xhr-request-promise > xhr-request > buffer-to-arraybuffer > tape > glob > minimatch:
+        patched: '2018-12-08T03:39:49.430Z'
+  'npm:ms:20170412':
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > express > debug > ms:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > express > finalhandler > debug > ms:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > express > send > debug > ms:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > express > serve-static > send > debug > ms:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > express > send > ms:
+        patched: '2018-12-08T03:39:49.430Z'
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > express > serve-static > send > ms:
+        patched: '2018-12-08T03:39:49.430Z'
+  'npm:stringstream:20180511':
+    - web3 > web3-bzz > swarm-js > eth-lib > servify > request > stringstream:
+        patched: '2018-12-08T03:39:49.430Z'
